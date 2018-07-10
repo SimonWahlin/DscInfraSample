@@ -30,3 +30,12 @@ lookup_options:
       tuple_keys:
         - Name
         - Version
+  Shared1:
+    merge_hash: deep
+    merge_basetype_array: deep
+    merge_hash_array: deep
+    merge_options:
+      tuple_keys:
+        - Name
+        - Version
+  Shared1\Param1: First
